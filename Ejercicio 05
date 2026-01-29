@@ -1,0 +1,9 @@
+a = "python123"
+b = ""
+while b != a:
+    b = input("Introduce tu contraseña: ")
+    if b != a:
+        print("Incorrecto, Intenta de nuevo")
+        
+    
+print("Acceso concedido")
