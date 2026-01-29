@@ -1,0 +1,7 @@
+limite = int(input("Hasta que numero quieres sumar?: "))
+suma = 0
+i = 1 
+while i <= limite:
+    suma += i
+    i += 1 
+print(f"La suma total es: {suma} ")
